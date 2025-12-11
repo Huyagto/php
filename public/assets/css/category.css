@@ -1,0 +1,256 @@
+/* ===========================
+   CATEGORY PAGE STYLES
+=========================== */
+
+/* Title Bar */
+.category-title-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.category-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.category-title i {
+    color: #e50914;
+    font-size: 28px;
+}
+
+/* Add Button */
+.category-title-flex .btn-add {
+    background: #e50914;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.category-title-flex .btn-add:hover {
+    background: #b20810;
+}
+
+/* Card Wrapper */
+.category-card {
+    background: #131416;
+    border-radius: 12px;
+    padding: 0;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.45);
+    overflow: hidden;
+}
+
+/* Table */
+.category-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+.category-table thead {
+    background: #1a1a1a;
+}
+
+.category-table th {
+    padding: 14px;
+    color: #cfcfcf;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    text-align: left;
+}
+
+.category-table td {
+    padding: 14px;
+    color: #fff;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+.category-table tbody tr {
+    transition: 0.22s ease;
+}
+
+.category-table tbody tr:hover {
+    background: rgba(255,255,255,0.05);
+}
+
+/* Action Buttons */
+.category-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-small {
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.btn-edit {
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.btn-edit:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+.btn-delete {
+    background: #b71c1c;
+    color: #fff;
+}
+
+.btn-delete:hover {
+    background: #d61818;
+}
+/* ===========================
+   CATEGORY FORM STYLES
+=========================== */
+
+.category-form-wrapper {
+    background: #131416;
+    padding: 28px;
+    border-radius: 14px;
+    box-shadow: 0 0 14px rgba(0,0,0,0.45);
+    max-width: 520px;
+}
+
+.category-form-wrapper h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.category-form-wrapper h2 i {
+    color: #e50914;
+}
+
+/* Label */
+.category-form-wrapper label {
+    font-weight: 600;
+    color: #ccc;
+    margin-bottom: 6px;
+    display: block;
+}
+
+/* Input */
+.category-form-wrapper input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.12);
+    background: #0d0d0d;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+.category-form-wrapper input:focus {
+    border-color: #e50914;
+    box-shadow: 0 0 6px rgba(229,9,20,0.4);
+    outline: none;
+}
+
+/* Submit Button */
+.category-form-wrapper button {
+    background: #e50914;
+    color: #fff;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    transition: 0.2s ease;
+    margin-top: 10px;
+}
+
+.category-form-wrapper button:hover {
+    background: #c40810;
+    transform: translateY(-2px);
+}
+/* ================================
+   AUTHOR FORM PAGE STYLING
+   ================================ */
+
+/* Page Title */
+.page-title {
+    font-size: 26px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+
+.page-title i {
+    color: #e50914;
+    font-size: 28px;
+}
+
+/* Form card container */
+.form-card {
+    background: #101113;
+    padding: 28px;
+    border-radius: 14px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.4);
+    max-width: 600px;
+}
+
+/* Labels */
+.form-card label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #ccc;
+}
+
+/* Text Input */
+.form-card .input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    background: #0c0c0d;
+    border: 1px solid rgba(255,255,255,0.08);
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: .2s;
+}
+
+.form-card .input:focus {
+    border-color: #e50914;
+    outline: none;
+    box-shadow: 0 0 8px rgba(229,9,20,0.4);
+}
+
+/* Submit Button */
+.form-card .btn.primary {
+    background: #e50914;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.form-card .btn.primary:hover {
+    background: #ff0f1f;
+    transform: translateY(-2px);
+}
